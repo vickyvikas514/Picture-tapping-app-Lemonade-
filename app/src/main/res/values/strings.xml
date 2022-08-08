@@ -17,7 +17,9 @@
     <string name="app_name">Lemonade</string>
     <string name="lemon_select">Click to select a lemon!</string>
     <string name="lemon_squeeze">Click to juice the lemon!</string>
+
     <string name="lemon_drink">Click to drink your lemonade!</string>
     <string name="lemon_empty_glass">Click to start again!</string>
     <string name="squeeze_count">Squeeze count: %1$d, keep squeezing!</string>
+    <string name="depend_on_the_size_of_lemon_each_tap_is_equal_to_one_squeeze_you_can_hold_your_tap_after_tapping_to_see_your_squeeze_count">(Depend on the size of lemon {Each tap is equal to one squeeze} you can hold your tap after tapping to see your squeeze count)</string>
 </resources>

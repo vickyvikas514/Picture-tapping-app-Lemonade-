@@ -148,12 +148,15 @@ class MainActivity : AppCompatActivity() {
      */
     private fun setViewElements() {
         val textAction: TextView = findViewById(R.id.text_action)
+        val hiddentext:TextView=findViewById(R.id.hidden_text)
         // TODO: set up a conditional that tracks the lemonadeState
         if(lemonadeState==SELECT){
             textAction.setText(R.string.lemon_select)
         }
         if(lemonadeState==SQUEEZE){
             textAction.setText(R.string.lemon_squeeze)
+          hiddentext.text="Each tap is equal to one tap and number of taps is depend on the size of lemon,(You can hold your tap to see your squeeze count)"
+
         }
         if(lemonadeState==DRINK){
             textAction.setText(R.string.lemon_drink)
